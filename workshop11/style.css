@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: url("Resimler/Camgöbeği\ ve\ Beyaz\,\ Modern\,\ Yapay\ Zeka\ Teknolojileri\ Hakkında\ Instagram\ Hikayesi\ \(Masaüstü\ Duvar\ Kağıdı\).jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(22, 112, 214, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #ff6e00;
+    border-radius: 2px;
+}
+
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgb(207, 96, 88);
+    border: solid 1px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover {
+    background: #fff;
+    color: #ff6e00;
+}

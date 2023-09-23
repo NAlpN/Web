@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Alıştırması</title>
+</head>
+<body>
+    <h1>Kişisel Bilgiler</h1>
+    <form action="/form-gonder" method="post">
+        
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required>
+        <br>
+        
+        <label for="soyad">Soyad:</label>
+        <input type="text" id="soyad" name="soyad" required>
+        <br>
+        
+        <label for="yas">Yaşınız:</label>
+        <input type="text" id="yas" name="yas" required>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+
+        <input type="checkbox" id="onay" name="onay" required>
+        <label for="onay">Şartları Kabul Ediyorum</label>
+        <br>
+
+        <select name="sehir" id="sehir" required>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="antalya">Antalya</option>
+            <option value="izmir">İzmir</option>
+            <option value="samsun">Samsun</option>
+        </select>
+        <br>
+
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
